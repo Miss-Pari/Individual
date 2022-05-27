@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         gobtn = findViewById(R.id.gobtn);
         logintoregbtn = findViewById(R.id.logintoregbtn);
 
-        logintoregbtn.setOnClickListener();
+        //logintoregbtn.setOnClickListener();
     }
 
 
