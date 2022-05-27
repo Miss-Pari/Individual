@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="214dp"
         android:layout_height="33dp"
-        android:text="Hello World!"
+        android:text="table"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.385"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.189" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/english"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -30,7 +30,7 @@
         tools:layout_editor_absoluteY="254dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/konkani"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -41,7 +41,7 @@
         tools:layout_editor_absoluteX="76dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/pronounce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -51,10 +51,10 @@
         tools:layout_editor_absoluteY="424dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="save"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="534dp" />
 
