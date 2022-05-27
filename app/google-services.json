@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "395424670026",
+    "firebase_url": "https://hem-kitem-default-rtdb.firebaseio.com",
+    "project_id": "hem-kitem",
+    "storage_bucket": "hem-kitem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395424670026:android:69f8a725beb656416aa1b3",
+        "android_client_info": {
+          "package_name": "com.practical.individual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395424670026-krte6hve1la808mamaldem26kq1pecg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmV-u_f6ib4Xpw2Fy_GCKUIDGRBVDR6X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395424670026-krte6hve1la808mamaldem26kq1pecg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395424670026:android:1b1c61baacbc8f286aa1b3",
+        "android_client_info": {
+          "package_name": "mad.project.hemkitem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395424670026-krte6hve1la808mamaldem26kq1pecg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmV-u_f6ib4Xpw2Fy_GCKUIDGRBVDR6X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395424670026-krte6hve1la808mamaldem26kq1pecg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395424670026:android:8ddd3aa8fcbb512f6aa1b3",
+        "android_client_info": {
+          "package_name": "mad.project.mini_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395424670026-krte6hve1la808mamaldem26kq1pecg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmV-u_f6ib4Xpw2Fy_GCKUIDGRBVDR6X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395424670026-krte6hve1la808mamaldem26kq1pecg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
