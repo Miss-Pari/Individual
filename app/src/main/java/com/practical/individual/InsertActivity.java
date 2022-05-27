@@ -2,13 +2,16 @@ package com.practical.individual;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
@@ -48,6 +51,22 @@ public class InsertActivity extends AppCompatActivity {
                 addEntry();
             }
         });
+
+//        listViewMinerals.setOnLongClickListener(new View.OnClickListener() {
+//            @Override
+//            public boolean onLongClick(View view, int i) {
+//                Minerals minerals = Minerals.get(i);
+//                return false;
+//            }
+//        });
+
+        listViewMinerals.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Minerals mineral = Minerals.get(i);
+            }
+        });
+
     }
 
     @Override
@@ -75,6 +94,24 @@ public class InsertActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void showUpdateDialog(String mineralid, String english, String konkani, String pro){
+
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        final View dialogView = inflater.inflate(R.layout.update_layout, null);
+        dialogBuilder.setView(dialogView);
+
+        final EditText english3 = (EditText) dialogView.findViewById(R.id.edtTxt);
+        final EditText konkani3 = (EditText) dialogView.findViewById(R.id.newKonkani);
+        final EditText pro3 = (EditText) dialogView.findViewById(R.id.newPro);
+        final Button update = (Button) dialogView.findViewById(R.id.update);
+
+        dialogBuilder.setTitle("Updateing Minerals "+mineralid);
+        AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
+
     }
 
     private void addEntry(){
