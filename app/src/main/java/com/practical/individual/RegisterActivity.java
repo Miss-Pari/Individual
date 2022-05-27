@@ -1,4 +1,7 @@
 package com.practical.individual;
 
-public class RegisterActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class RegisterActivity extends AppCompatActivity {
+
 }
