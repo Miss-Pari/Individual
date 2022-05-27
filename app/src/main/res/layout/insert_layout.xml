@@ -9,28 +9,19 @@
         android:id="@+id/Table_Name"
         android:layout_width="225dp"
         android:layout_height="0dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginBottom="52dp"
         android:layout_weight="1"
-        android:text="Table_Name"
-        app:layout_constraintBottom_toTopOf="@+id/english"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Table_Name" />
 
     <EditText
         android:id="@+id/english"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="144dp"
         android:layout_weight="1"
         android:ems="10"
         android:hint="English"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/pronounce"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Table_Name" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="56dp" />
 
     <EditText
         android:id="@+id/konkani"
@@ -40,25 +31,20 @@
         android:ems="10"
         android:hint="Konkani"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/pronounce"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/english" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="126dp" />
 
     <EditText
         android:id="@+id/pronounce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="357dp"
         android:layout_weight="1"
         android:ems="10"
         android:hint="Pronounciation in English"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/english" />
+        tools:layout_editor_absoluteY="191dp" />
 
     <Button
         android:id="@+id/button"
@@ -66,8 +52,14 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Save"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pronounce" />
+        tools:layout_editor_absoluteY="251dp" />
+
+    <ListView
+        android:id="@+id/listViewMinerals"
+        android:layout_width="409dp"
+        android:layout_height="359dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="299dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
